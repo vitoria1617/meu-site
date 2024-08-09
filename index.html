@@ -1,7 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0S"
+    <meta name="viewport"content="widh=devic-width, initial-scale=1.0">
+    <title>CALCULADORA IMC</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
+<body>
+
+    <main>
+        <div class="container">
+            <h5>Vitoria Mirella 2º info2 2024</h5>
+            <div class="title">CALCULADORA -IMC</div>
+
+            <div class="input">
+                <label>nome:</label>
+                <input type="text"id="nome"placeholder="digite seu nome">
+            </div>
+            <div class="input">
+                <label>altura:</label>
+                <input type="number"id="altura" placeholder="digite sua altura">
+            </div>
+            <div class="input">
+                <label>peso :</label>
+                <input type="nunber" id="peso"placeholder="digite seu peso">
+            </div>
+            <button id='calcular'>CALCULAR</button>
+            <div class="result" id='resultado'></div>
+        </div>
+    </main>
+    <script src="./imc.js"></script>
+</body>
 </html>
